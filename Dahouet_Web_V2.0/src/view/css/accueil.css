@@ -1,0 +1,142 @@
+@CHARSET "ISO-8859-1";
+
+.aside {
+	position: relative;
+	width: 250px;
+	height: 500px;
+	margin-left: auto;
+	float: right;
+}
+
+.article {
+	margin-right: auto;
+}
+
+.article {
+	width: 70%;
+	margin: 15px;
+	padding: 10px 12px;
+	background: white;
+	height: 650px;
+	-webkit-box-shadow: 0px 0px 4px 0.5px black;
+	-moz-box-shadow: 0px 0px 4px 0.5px black;
+	box-shadow: 0px 0px 4px 0.5px black;
+}
+
+.sociaux, #nav_menu, .log {
+	width: 200px;
+	margin: 15px;
+	padding: 10px 12px;
+	background: white;
+}
+
+.sociaux {
+	height: 120px;
+}
+
+#nav_menu {
+	height: 180px;
+}
+
+#menu-regate {
+	width: 100px;
+	height: 150px;
+	background: white;
+}
+
+.titre, h3 {
+	text-align: center;
+	font: normal 12px verdana;
+}
+
+img {
+	margin-right: auto;
+	margin-left: auto;
+	padding: 15px;
+}
+
+#regate {
+	list-style: none;
+}
+
+.logindiv {
+	width: 650px;
+	margin: 15px;
+	padding: 10px 12px;
+	background: white;
+	height: 400px;
+}
+
+#FILS {
+	min-width: 960px;
+	height: 70%;
+	min-height: 1004px;
+}
+
+.News {
+	height: 650px;
+	width: 70%;
+	margin: 15px;
+	padding: 10px 12px;
+	background: white;
+	-webkit-box-shadow: 0px 0px 4px 0.5px black;
+	-moz-box-shadow: 0px 0px 4px 0.5px black;
+	box-shadow: 0px 0px 4px 0.5px black;
+}
+
+#FILS * {
+	
+}
+
+/*    Billboard    */
+input, .SelecNomVoilier {
+	display: block;
+	margin: 0px auto 15px;
+	border-radius: 5px;
+	background: white;
+	width: 85%;
+	padding: 12px 20px 12px 10px;
+	border: none;
+	color: #929999;
+	box-shadow: inset 0px 1px 5px #272727;
+	font-size: 0.8em;
+	-webkit-transition: 0.5s ease;
+	-moz-transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-ms-transition: 0.5s ease;
+	transition: 0.5s ease;
+}
+
+h1 {
+	text-align: center;
+	color: black;
+	font-size: 30px;
+	padding: 0px 0px;
+	font-family: verdana;
+}
+
+.Tlog {
+	text-align: center;
+	color: black;
+	font-size: 15px;
+	padding: 0px 0px;
+	font-family: verdana;
+}
+
+select {
+	display: block;
+	margin: 0px auto 15px;
+	border-radius: 5px;
+	background: white;
+	width: 85%;
+	padding: 12px 20px 12px 10px;
+	border: none;
+	color: #929999;
+	box-shadow: inset 0px 1px 5px #272727;
+	font-size: 0.8em;
+	-webkit-transition: 0.5s ease;
+	-moz-transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-ms-transition: 0.5s ease;
+	transition: 0.5s ease;
+}

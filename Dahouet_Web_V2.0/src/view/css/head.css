@@ -1,0 +1,171 @@
+@CHARSET "ISO-8859-1";
+
+#header {
+	background: url('../../../resources/img/ImageTitre.jpg') no-repeat;
+	height: 198px;
+}
+
+body {
+	background: #E3E3E3;
+	width: 960px;
+	margin: auto;
+	-webkit-box-shadow: 0px 0px 4px 0.5px black;
+	-moz-box-shadow: 0px 0px 4px 0.5px black;
+	box-shadow: 0px 0px 4px 0.5px black;
+}
+
+#contenueindex {
+	height: 924px;
+	margin: 0;
+	padding: 0;
+}
+
+#conten {
+	height: 228px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.menu {
+	background: #173E69;
+	margin-left: auto;
+	margin-right: auto;
+	height: 35px;
+	margin-top: -5px;
+}
+
+#menu-demo2, #menu-demo2 ul {
+	padding: 0;
+	margin: 0;
+}
+
+#menu-demo2 li {
+	display: inline-block;
+	position: relative;
+}
+
+#menu-demo2 ul li {
+	display: inherit;
+}
+
+#menu-demo2 ul {
+	position: absolute;
+	max-height: 0;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+}
+
+#menu-demo2 li:hover ul {
+	max-height: 15em;
+	-webkit-box-shadow: 0px 0px 1px 1px black;
+	-moz-box-shadow: 0px 0px 1px 1px black;
+	box-shadow: 0px 0px 1px 1px black;
+}
+
+/* background des liens menus */
+#menu-demo2 li:first-child {
+	background-color: #173E69;
+}
+
+#menu-demo2 li:last-child {
+	background-color: #173E69;
+}
+/* background des liens sous menus */
+#menu-demo2 li:first-child li {
+	background: #E3E3E3;
+}
+
+#menu-demo2 li:last-child li {
+	background: #E3E3E3;
+}
+/* background des liens menus et sous menus au survol */
+#menu-demo2 li:first-child:hover {
+	background: #E3E3E3;
+}
+
+#menu-demo2 li:first-child li:hover {
+	background: #173E69;
+}
+
+#menu-demo2 li:last-child:hover {
+	background: #E3E3E3;
+}
+
+#menu-demo2 li:last-child li:hover {
+	background: #173E69;
+}
+/* les a href */
+#menu-demo2 a {
+	text-decoration: none;
+	display: block;
+	padding: 5px 32px;
+	color: white;
+	font-family: verdana;
+}
+
+#menu-demo2 ul a {
+	padding: 8px 0;
+}
+
+#menu-demo2 li:hover li a {
+	color: black;
+}
+/*memu principal + sous menu*/
+#menu-demo2 li:hover a {
+	color: black;
+	background: black;
+	background: inherit;
+	-webkit-box-shadow: 0px 0px 1px 1px black;
+	-moz-box-shadow: 0px 0px 1px 1px black;
+	box-shadow: 0px 0px 1px 1px black;
+}
+
+#menu-demo2 li li:hover a {
+	color: white;
+	background: black;
+	background: inherit;
+}
+
+/*----------------------FOOTER-------------------*/
+#footer {
+	padding-top: 50px;
+	margin-bottom: 30px;
+	min-height: 80px;
+	position: relative;
+}
+
+#pied {
+	color: white;
+}
+
+footer {
+	height: 132px;
+	margin: 0;
+	padding: 0;
+	background: #173E69;
+	clear: both;
+}
+
+#copyright {
+	color: white;
+	margin: 0 10px 20px;
+	float: left;
+	max-width: 30%;
+}
+
+#developer {
+	color: white;
+	text-align: right;
+	clear: right;
+	padding: 20px 0;
+	float: right;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+
